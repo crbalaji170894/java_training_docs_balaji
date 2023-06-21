@@ -1,0 +1,50 @@
+1. CORE JAVA
+============
+
+Syllabus:
+==========
+
+1. Oops concept
+    -> Class, Method,Object
+    ->Inheritence, Polymorphism, Abstraction, Encapsulation
+
+2. Control statement/looping
+     if, else, while, do-while, for
+  
+3. Arrays
+
+4. String
+    ->String Methods with logic programs
+    ->Diff btwn String Buffer and Sting Builder
+    ->Diff btwn Literal String and Non Literal String
+
+5. Exceptions
+
+6. Collections
+     ->List, Set, MAP
+
+9.Regular Expressions
+
+Additional Topics:
+=================
+1.Keywords:
+===========
+Final, Static,Super,this
+
+2.Scanner class
+
+3.Access Specifiers
+
+4.Constructor
+
+5.Excel code
+
+6. File Reader, Property file handling
+
+7.Basic idea about below topics
+    JDBC, Singleton Program
+
+
+
+
+      

@@ -1,0 +1,44 @@
+Terminology and Tools 
+=====================
+
+Terminology:
+===========
+
+1. JDK
+2. JRE
+3. JVM
+
+JDK:
+===
+ Java Development Kit
+ If run any applications we need JDK have to installed
+ JDK versions: 1.0 to 1.9
+ Mostly V1.8 is used now
+
+JRE:
+===
+ Java Runtime Environment
+ It is a pre-defined. class files (i.e.) library files
+
+JVM:
+===
+ Java Virtual Machine
+ It is mainly used to allocate the memory and compiling
+
+TOOLS:
+======
+
+1. Notepad
+2. Net bean
+3. Eclipse
+4. J Developer-oracle
+5. RAD-IBM
+ Nowadays we mostly used eclipse (75% of the people using).
+
+ Versions of eclipse:
+=====================
+ Juno
+ Kepler
+ Luna
+ Mars
+ Neon

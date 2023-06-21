@@ -1,0 +1,38 @@
+JAVA INTRODUCTION
+==================
+ Java is a simple programing language
+ Writing, compilation and debugging a program is very easy in java
+ It helps to create reusable code
+ Java has more features,
+
+ 1. Platform independent
+ 2. Open source
+ 3. Multithreading
+ 4. More secure
+ 5. Portable 
+
+
+1. Platform independent
+=======================
+ During the compilation the java program converts into byte code
+ Using byte code we can run the application to any platform such as windows, mac, linux, etc
+
+2. Open source:
+=================
+ A program in which source code is available to the general public for use and/or modification
+from its original design at free of cost is called open source
+
+3. Multithreading:
+===================
+ Java supports multithreading
+ It enables a program to perform several task simultaneously
+
+4. More secure:
+===============
+ It provides the virtual firewall between the application and the computer
+ So it’s doesn't grant unauthorized access
+
+5. Portable:
+============
+ "Write once run anywhere"
+ Java code written in one machine can run on another machine

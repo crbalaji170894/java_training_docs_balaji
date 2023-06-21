@@ -1,0 +1,39 @@
+Configure Maven in Windows:
+==========================
+
+Go to google -> type maven download.
+Go to->https://maven.apache.org/download.cgi
+
+
+1)Google-> Search "maven central repository"
+2) downlaod "Binary zip archive"
+Paste folder into "Program files"
+3)Configure path setup
+
+Go to cmd check maven version after path setup
+mvn --version
+C:\Users\Kisho>java --version
+java 20.0.1 2023-04-18
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)
+Java HotSpot(TM) 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
+
+
+Create Maven Project:
+=====================
+Create Maven Project
+Provide GroupId
+Provide Artifact ID
+Finish
+Cr̥eate Sample Program
+
+
+public class FirstMavenProject {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to Maven Project");
+
+	}
+
+}
+
+

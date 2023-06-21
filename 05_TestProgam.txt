@@ -1,0 +1,19 @@
+package testPackage;
+
+public class TestJavaProgram {
+
+	public static void main(String[] args) {
+	 
+		System.out.println("Welcome to the JAVA class Training");
+
+	}
+
+}
+
+
+
+Create new Java Project
+Create new Package
+Create new Java Class
+Create Test Program
+Run Test Program
