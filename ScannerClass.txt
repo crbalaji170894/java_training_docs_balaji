@@ -1,0 +1,33 @@
+Scanner Class
+=============
+
+Get the input from JAVA user at the run time or program execution time.
+
+Scanner class has present  package called
+
+java.util-> predefined package 
+
+Giving our inputs into console from java user.
+
+========================================================================
+
+Syntax:
+
+Scanner variblename = new Scanner(System.in)
+
+variablename.scannermethods();
+
+======================
+
+Scanner methods:
+===============
+1)nextInt()
+2)nextByte()
+3)nextShort()
+4)nextFloat()
+5)nextLong()
+6)next()-It ignores space
+7)nextLine()-It accepts space
+8)nextBoolean()
+
+
