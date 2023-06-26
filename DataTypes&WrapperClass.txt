@@ -1,0 +1,21 @@
+Datatypes:
+==========
+
+DataType  Size WrapperClass
+
+byte       1    Byte
+short      2    Short
+int        4    Integer
+long       8    Long
+float      4    Float
+double     8    Double
+char            Character
+String          String
+boolean         Boolean
+
+
+
+**Wrapper class:
+================
+Classes of Data type is called as Wrapper class.
+
