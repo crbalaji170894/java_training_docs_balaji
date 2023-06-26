@@ -1,0 +1,13 @@
+Pascal Notation
+===============
+Starting word should be in upper case
+Every word should starts with upper case.
+
+Ex.Class Name -( Java class file) -TestJavaProgram
+
+Cammel Notation
+==============
+Starting word should be in starts with lower case
+Every next word should starts with Uppercase.
+
+Ex: Method name - testMethod

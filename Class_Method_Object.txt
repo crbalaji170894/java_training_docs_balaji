@@ -1,0 +1,20 @@
+OOPS:
+---
+Obeject oriented Programing structured Language.
+
+Class:
+=====
+Class which has collection of Methods and Obejects.
+
+Methods:
+=======
+A set of functions or business logics should be performed.
+Inside methods we are implementing our business logics.
+
+Object:
+=======
+1.Using Object we can call any methods form the Class.
+2.Which is used to allocate memory at runtime
+3.Object stores in heap memory which is available in JVM.
+
+
