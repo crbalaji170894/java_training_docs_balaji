@@ -1,0 +1,112 @@
+Control Statements:
+===================
+if 
+
+if ..else
+
+nested if
+
+===============
+
+if(condition)
+{
+
+}
+====================================
+
+if(condition)
+{
+}
+
+else
+{
+}
+========================
+package testPackage;
+
+public class VotersAge {
+
+	int eligibleAge =18;
+	
+	public void toCheckVotersAge(int n) {
+//		
+		if(n>=eligibleAge)
+		{
+			System.out.println("The Age valid to poll vote:" +n);
+		}
+		else
+		{
+			System.out.println("The Age is not valid to poll vote");
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		VotersAge obj = new VotersAge();
+		
+		obj.toCheckVotersAge(17);
+
+	}
+
+}
+
+
+WhileLoop:
+=========
+While (condition)
+{
+}
+
+Only the condition is true then body will be executed.
+
+package testPackage;
+
+public class WihileLoopExecution {
+
+	public static void main(String[] args) {
+		
+		
+		int a =1;
+		
+		while(a<=10) 
+		{
+		
+			System.out.println(a);	
+		
+			a++;
+		
+	}
+
+	}
+
+}
+
+do while:
+========
+do{
+
+body
+}while(condition)
+
+Body of the loop atleast one time will be excecuted even though condtion is failed
+
+
+package testPackage;
+
+public class DOWhile {
+
+	public static void main(String[] args) {
+		
+		int a =1;
+		
+		do {
+			System.out.println("Execution starts");
+			System.out.println(a);
+			a++;
+			
+		}while(a<=10);
+
+	}
+
+}
+==============================================================================================================================

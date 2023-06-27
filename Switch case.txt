@@ -1,0 +1,48 @@
+Switch case:
+===========
+
+* used to handle Multiple if conditions
+* "continue" should not used while using switch cases
+
+Synatx:
+
+switch(choice)
+
+Case1:
+statememt
+break;
+
+Case2:
+statememt
+break;
+
+default:
+
+break;
+
+package testPackage;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+		switch(5) {
+		case 1:
+			System.out.println("Case one");
+			break;
+		
+		case 2:
+			System.out.println("Case Two");
+			break;
+		
+		case 3:
+			System.out.println("Case Three");
+			break;
+			
+		default:
+			System.out.println("This default");
+			break;
+}
+	}
+
+}

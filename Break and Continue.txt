@@ -1,0 +1,42 @@
+Break and Continue:
+============
+
+Break is a keyword used to terminate the loop
+
+package testPackage;
+
+public class BrreakStatement {
+
+public static void main(String[] args) {
+	for(int i =0; i<=10;i++)
+	{
+		if(i==5)
+		{
+			break;
+		}
+		System.out.println(i);
+	}
+}
+}
+
+
+Continue is a keyword to continue the loop but condition will be skipped.
+
+package testPackage;
+
+public class ContinueStatement {
+	public static void main(String[] args) {
+		
+		for(int i =0; i<=10;i++)
+		{
+			if(i==5)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+	}
+	
+	}
+
+

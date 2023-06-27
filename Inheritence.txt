@@ -1,0 +1,51 @@
+Inheritence:
+=============
+
+* We can access one class property or methods from another class.
+* Code reusablity
+* Keyword "extends"
+* Reduce memory wastage
+
+Types:
+=====
+1) Single Inheritance
+2) Multiple Inheritance
+3) Multilevel Inheritance
+4) Hierarichal Inheritance
+
+
+1) Single Inheritance
+--------------------
+Combination of One parent Class and One child Class
+
+2) Multiple Inheritance
+=======================
+Will not work from Java which can be achived by Interface.
+
+3)Multilevel Inheritance:
+=========================
+
+ClassA -Parent
+
+ClassB extends ClassA -Subclass or child class
+
+---> Which has both ClassA and ClassB methods.
+
+ClassC extends ClassB
+----> Which ClassB and classC methods.
+
+More than one parent will access from the child as tree like strucure.
+
+====================================================================
+
+4) Hierarichal Inheritance
+========================= -> One parent more than one child.
+
+ClassA-Parent
+
+ClassB extends ClassA
+
+ClassC extends ClassA
+
+ClassD extends ClassA
+

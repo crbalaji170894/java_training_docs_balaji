@@ -1,0 +1,29 @@
+PolyMorphism:
+============
+
+***Executing the methods more than once which is known as Polymorphism.
+
+Two types of Polymorphism we have.
+=================================
+1) Compile Time polymorphism-Method Overloading
+2) Run Time Polymorphism-> Method Overriding.
+
+
+Compile Time polymorphism-Method Overloading
+=============================================
+
+1) Same class have to use
+2) Same Mehtods we have to use
+3) Need to pass different type of data or arguments inside methods
+
+
+Method Overriding:
+=================
+
+1)Different Class
+2)Same method we have to use
+3)It omits the parent clsas methods
+4)It accepts child class methods
+5) "extends" keyword to override from any parent class.(kind of Inheritence)
+
+

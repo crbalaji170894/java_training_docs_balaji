@@ -1,0 +1,102 @@
+For Loops:
+==========
+
+Synatax:
+
+for(Initalization;Condition;Increamental or decreamental)
+{
+}
+
+
+Ex:
+
+for(int i =0 ;i <=5; i++)
+{
+ sysout (i);
+}
+
+Step 1:
+i =0  0<=5 (true)     
+0
+i=1
+
+Steps:
+i=1, 1<=5 true
+1
+i=2
+
+Step3
+i 2 2,=5 true
+2
+i=3
+
+Step4
+i =3  3<-5 true
+3
+i=4
+
+Step4
+i 4 4<=5 true
+4
+i=5
+
+step5
+i =5 5<=5 true
+5
+i=6
+
+step6
+i =6 6<=5 false
+
+nested for  Loops:
+==================
+
+for (int i =0 ;i <=3:i++)
+{
+ for(int j =0;j<=3;j++}
+{
+sysout(j);
+}
+sysout (i)
+}
+
+Step 1:
+=======
+int i =0 0 <=3 (true)
+
+j=0 0<=3 true
+0(j)
+j=1
+
+j=1 1<=3 tru
+1 (j)
+2 (j)
+
+j=2 j<=3 true
+2
+j=3
+
+j=3 3<3 true
+3
+j=4
+
+4 conditions
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

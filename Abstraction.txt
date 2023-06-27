@@ -1,0 +1,29 @@
+Abstraction:
+===========
+
+Hideing the Data or Implementation Details.
+
+Types Abstarction:
+=================
+1) Partial Abstarction- Abstarct class
+2) Fully Abstarction -Interface
+
+Partial Abstarction:(Absract)
+====================
+* Contains both abstarct and non absract mehtods
+* have to use keyword called "extends"
+* have to use Keyword class Abstarct (both class and method)
+* Do not have any default return type
+* We can not create object in Absract class
+
+Fully Abstraction: Interface
+===========================
+* conatains Only abstarct Mehtods
+* have to use keyword called "Implements"
+* use to keyword in class called "Interface"
+* We can not create object in Interface 
+* Default return type is "public"
+
+
+
+
