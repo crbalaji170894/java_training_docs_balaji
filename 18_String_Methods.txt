@@ -1,0 +1,235 @@
+String:
+======
+1.String is predefined class and it presents t java.lang package.
+2.Which we can say collection of characters.
+3. To represent as a String we have mention or define as docuble quotes. ""
+
+String s1 = "What is you name";
+
+4) String is a indexbased.
+    
+   index = 0....n-1
+   length =1 -n
+   
+String s2 = "Welcome";
+
+W E L C O M E
+0 1 2 3 4 5 6 ->index -> Find the index of the String character we use size()
+1 2 3 4 5 6 7->length- length()
+============================================================================
+
+String Methods:
+==============
+
+1)strLength()-To find the length of th String
+
+2)charAt(i)- Extract the caracter form the String based on index value.
+
+3)toUpperCase()-Make it upper case as a String
+
+4)toLowerCase()-Make it Lower case as a String
+
+5)startsWith()->Pass a String inside method to find String starts with passed string or not.
+
+6)endsWith()->Pass a String inside method to find String ends with passed string or not.
+
+7)indexOf()
+
+8)lastIndexOf()
+
+9)contains()
+
+10)equals()
+
+11)equalsIgnoreCase()
+
+12)subString()
+
+13)concat()
+
+14)replace()
+
+15)split()-##
+======================================================================================================
+package testPackage;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		
+		
+		//length of the String
+		
+		String s1 = "Welcome";
+		
+		int length = s1.length();
+		
+		System.out.println("The lenght of the String:"+length);
+		
+		
+		//cahrAt()-> To extract the character from the String based on Index value
+		
+		String s2 = "JAVA TRANING";
+		
+		char c = s2.charAt(5);
+		
+		System.out.println("The character is"+c);
+		
+		for(int i=0;i<s2.length();i++)
+		{
+		  char c2 =s2.charAt(i);
+		  
+		  
+		  if(c2=='T')
+		  {
+			  System.out.println(c2);
+			  System.out.println(i);
+			  
+		  }
+		  }
+		
+		
+		
+		//toUpperCase
+		
+	    String s3="hai welcome to java class";
+	    
+	    String upperCase = s3.toUpperCase();
+	
+	    System.out.println(upperCase);
+	    
+      //toLoweCase
+		
+	    String s4="HELLO TO GOOGaLE";
+	    
+	    String lowerCase = s4.toLowerCase();
+	
+	    System.out.println(lowerCase);
+	    
+	    
+	    
+	    //startsWith and endsWith
+	    
+	    String s5="hai welcome to java class";
+	    
+	    boolean startsWith = s5.startsWith("hai");
+	    
+	    boolean endsWith =s5.endsWith("class");
+	    
+	    System.out.println(startsWith);
+	    
+	    System.out.println(endsWith);
+	    
+	    //http-non secured url
+	   // https -secured url
+	    
+	    String url="https://www.google.com";
+	    
+	    
+	    
+	   //indexOf (First) and Last Index of
+	    
+	    String s6 ="WELCOME";
+	    
+	    int indexOf = s6.indexOf('L');
+	
+	    System.out.println(indexOf);
+		
+	    int indexOf1 = s6.indexOf('E');
+		
+	    System.out.println(indexOf1);
+	    
+        int lastIndex = s6.lastIndexOf('E');
+		
+	    System.out.println(lastIndex);
+	    
+	    
+	   //contains
+	    
+	    String s7 ="Welcome to java training";
+	    
+	    boolean contains = s7.contains("java");
+	    
+	    System.out.println(contains);
+	    
+	    //equals and equals Ignore case
+	    
+	    String s8 = "test";
+	    
+	    String s9 ="tesT";
+	    
+	    boolean equals = s8.equals(s9);
+	    
+	    System.out.println(equals);
+	   
+	    boolean equalsIgnoreCase = s8.equalsIgnoreCase(s9);
+	    
+	    System.out.println(equalsIgnoreCase);
+	    
+	    
+	    
+	    //subString
+	    
+	    String s10= "Hai Welcome to JAVA Training";
+	    
+	    String substring = s10.substring(0, 10);
+	    
+	    System.out.println(substring);
+	     
+	    String substring2 = s10.substring(3);
+	    
+	    System.out.println(substring2);
+	    
+	    
+	    //concat
+	    
+	    String s11="hai Welcome";
+	    String s12="To JAVA Training";
+	    
+	    String concat = s11.concat(s12);
+	    
+	    System.out.println(concat);
+	    
+	    
+	    //replace
+	    
+	    String s13 = "Hai Welcome to JAVA Traing";
+	    
+	    String replace = s13.replace('a', 'e');
+	    
+	    System.out.println(replace);
+	    
+	    
+	    //split[]-important method
+	    
+	    String s15 ="Hai Welcome to JAVA Training";
+	    //            0   1      2   3   4
+	    
+	    String[] arrayOfAtring = s15.split("to");
+	    
+	    
+	    
+//	    for(int i=0;i<arrayOfAtring.length;i++)
+//	    {
+//	    	System.out.println(arrayOfAtring[i]);
+//	    }
+	    
+	    for(String x:arrayOfAtring) 
+	    {
+	    	System.out.println(x);
+	    }
+	    	
+	    
+	    
+	   }
+	
+		
+	
+	
+
+}
+
+
+
+
+
