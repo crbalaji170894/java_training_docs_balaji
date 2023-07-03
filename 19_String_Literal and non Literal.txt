@@ -1,0 +1,61 @@
+Literal String and Non Literal String:
+=====================================
+
+Literal String
+=============
+
+
+*Immutable {not changable)
+
+*Literal String which are stores at inside the heap memory
+
+**Incase of duplicates it allocates the same memory Location.
+
+Example:
+=======
+
+String s1 ="MALYALAM";
+		
+String s2 ="MALYALAM";
+		
+System.out.println(System.identityHashCode(s1));
+		
+System.out.println(System.identityHashCode(s2));
+
+NonLiteral String:
+==================
+*Mutuable(changeable)
+*Stores at heap memory
+
+*incase of duplicates it allocates different memory location
+
+Example:
+String s3 = new String ("test");
+		
+String s4 = new String ("test");
+		
+System.out.println(System.identityHashCode(s3));
+		
+System.out.println(System.identityHashCode(s4));
+
+**Incase joining it allocates same memory location.
+
+(StringBuffer and StringBuilder which is non literal String)
+
+StringBuffer s5 =new StringBuffer("HAI Welcome");
+		
+StringBuffer s6 =new StringBuffer("JAVA Class");
+		
+System.out.println(System.identityHashCode(s5));
+			
+System.out.println(System.identityHashCode(s6));
+		
+StringBuffer s7= s5.append(s6);
+		
+System.out.println(System.identityHashCode(s7))
+
+StringBuffer ->Synchronized and Threadsafe
+StingBuilder->Asynchronized and not Threadsafe
+
+=============================================================================================================================
+
