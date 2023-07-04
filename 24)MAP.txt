@@ -1,0 +1,146 @@
+3)MAP -Interface-Key and Value Based
+================
+1)HashMap
+2)LinkedHashMap
+3)TreeMap
+4)HashTable
+
+**Map is an Interface
+
+**Map is a Key and Value Combinations
+
+Key igonres duplicates and Value it allows duplicates.
+
+1) HashMap- It prints Random Order
+
+  Key- 1 null
+  Value -n null
+
+2) Linked HashMap->It prints Insertion order
+  
+ Key- 1 null
+ Value -n null
+
+
+3)TreeMAp-> It Prints Ascending Order
+
+Key -Ignores null
+Value -n null
+
+
+4)HashTable->It prints Random Order
+
+Key and Value both  are Ignores null
+
+=======================================================================
+
+Methods:
+========
+put()
+get()
+containsKey()
+containsValue()
+======================================================================
+entrySet()
+========
+Entry is nothing but combination of Key and Value.
+
+package testPackage;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class MapClass {
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+		HashMap hashMap = new HashMap();
+		
+		System.out.println(hashMap);
+		
+		hashMap.put(101, "JAVA");
+		hashMap.put(102, "SELNIUM");
+		hashMap.put(102, "RUBY");
+		hashMap.put(104, "PYTHON");
+		hashMap.put(106, "TEST");
+		
+		//System.out.println(hashMap);
+		
+//		Set<Entry<Integer,String>> entrySet = hashMap.entrySet();
+//		
+//		for(Entry<Integer,String> x:entrySet)
+//		{
+//			//System.out.println(x);
+//			//System.out.println(x.getKey());
+//			System.out.println(x.getValue());
+//			
+//		}
+		
+		LinkedHashMap lnkMap = new LinkedHashMap();
+		
+	
+		lnkMap.put('a', "JAVA");
+		lnkMap.put('b', "SELNIUM");
+		lnkMap.put('c', "RUBY");
+		lnkMap.put('d', "PYTHON");
+		
+		lnkMap.put('e', "TEST");
+		lnkMap.put('f', "TEST");
+		lnkMap.put('g', "TEST");
+		lnkMap.put('h', "TEST");
+		
+		
+		
+		
+		Set<Entry<Character,String>> emp = lnkMap.entrySet();
+		
+		for(Entry<Character, String> x:emp)
+		{
+			System.out.println(x.getValue());
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		Map<Integer,String> linkedMap =new LinkedHashMap();
+//		
+//		linkedMap.put(104, "test");
+//		
+//		//get()
+//		
+//		String string = linkedMap.get(104);
+//		
+//		System.out.println(string);
+//		
+//		//containsKey, containsValue
+//		
+//		boolean containsKey = hashMap.containsKey(101);
+//		System.out.println(containsKey);
+//		
+//		boolean containsValue = hashMap.containsValue("JAVA");
+//		System.out.println(containsValue);
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
+
+
