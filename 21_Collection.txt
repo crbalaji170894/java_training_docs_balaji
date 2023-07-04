@@ -1,0 +1,38 @@
+Collection:
+=========
+* Interface and which is available in java.util package.
+* To overcome the disadvantages of arrray with disimilar datatype.
+* memory wastage is reduced
+* Memory allaoctes at Run time of execution.
+
+Collection:-Interface.
+=====================
+1) LIST -Interface-Index based
+===================
+
+1) ArrayList
+2)LinkedList
+3)Vector
+
+These are Predefined classed which are available from LIST Interface.
+
+2) SET -Interface-Value Based
+=================
+
+1) HashSet
+2) LinkedHashSet
+3)TreeSet
+
+These are Predefined classed which are available from SET Interface.
+
+3)MAP -Interface-Key and Value Based
+================
+1)HashMap
+2)LinkedHashMap
+3)TreeMap
+4)HashTable
+
+These are Predefined classed which are available from MAP Interface.
+
+
+

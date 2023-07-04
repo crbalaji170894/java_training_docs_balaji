@@ -1,0 +1,89 @@
+2) SET -Interface-Value Based
+=================
+
+1) HashSet
+2) LinkedHashSet
+3)TreeSet
+
+These are Predefined classed which are available from SET Interface.
+
+========================================================
+
+i) It ignores duplicate values
+ii) It is value based
+
+java.util package
+
+Types:
+
+1) HashSet
+===========
+It Prints Random Order
+
+2) LinkedHashSet
+================
+It Prints Insertion order
+
+3)TreeSet
+==========
+It Prints Ascending order
+
+remove()
+add()
+====================================
+
+package testPackage;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+public class SetExmaple {
+
+	public static void main(String[] args) {
+
+		HashSet emptyHashSet = new HashSet();
+
+		emptyHashSet.add(10);
+		emptyHashSet.add(10);
+		emptyHashSet.add("String");
+		emptyHashSet.add('c');
+		emptyHashSet.add(43);
+
+		emptyHashSet.add(45);
+
+		System.out.println(emptyHashSet);
+
+		LinkedHashSet emptyLinkedHashSet = new LinkedHashSet();
+
+		emptyLinkedHashSet.add(10);
+		emptyLinkedHashSet.add(10);
+		emptyLinkedHashSet.add("String");
+		emptyLinkedHashSet.add('c');
+		emptyLinkedHashSet.add(43);
+
+		emptyLinkedHashSet.add(45);
+
+		System.out.println(emptyLinkedHashSet);
+
+		TreeSet treeSet = new TreeSet();
+
+		treeSet.add(100);
+		treeSet.add(10);
+		treeSet.add(30);
+		treeSet.add(15);
+		treeSet.add(45);
+		treeSet.add(23);
+
+		System.out.println(treeSet);
+		
+		treeSet.remove(100);
+		System.out.println(treeSet);
+		
+
+	}
+
+}
+
+
+
