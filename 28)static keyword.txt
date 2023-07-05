@@ -1,0 +1,19 @@
+Static:
+=====
+1) static method()
+====================
+1)No need to create any object for static method.
+2)Outside class we have to use call like below
+ 
+ClassName.methodName()
+
+Only Class name is enough to call methods.no need of any objects.
+
+3)If we use extends keyword no need of classname as well. Only method name is enough to call methods.
+
+2) Static Variable:
+===================
+To make Memeory efficient
+If you declare variable as Static memory will retains till to end of program exceution
+Static methods we can access both static and non static methods.
+

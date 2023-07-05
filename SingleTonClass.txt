@@ -1,0 +1,101 @@
+SingleTon Class
+===============
+The primary purpose of a java Singleton class is to restrict the limit of the number of object creations to only one.
+
+Memory space wastage does not occur with the use of the singleton class because it restricts instance creation. As the object creation will take place only once instead of creating it each time a new request is made.
+
+How to Design/Create a Singleton Class in Java?
+==================================================
+To create a singleton class, we must follow the steps, given below:
+
+1. Ensure that only one instance of the class exists.
+
+2. Provide global access to that instance by
+
+->Declaring all constructors of the class to be private.
+->Providing a static method that returns a reference to the instance. The lazy initialization concept is used to write the static methods.
+->The instance is stored as a private static variable.
+
+method:
+=======
+getInstance()
+
+1) Normal class we need to create Obejct or Constructor to instantiate
+2) SingleTon class we need getInstance() method to Instantiate
+
+**The singleton class does not destroy with the completion of an application.
+
+
+package testPackage;
+
+public class SingleTonClass {
+
+	// Java program implementing Singleton class
+	// with using getInstance() method
+
+	private static SingleTonClass single_instance = null;
+
+	// Declaring a variable of type String
+
+	public String s;
+
+	// create private constructor
+
+	private void SingleToClass() {
+		s = "Hello I am a string part of Singleton class";
+	}
+
+	
+	//create static method
+	
+	public static synchronized SingleTonClass getInstance() {
+		if (single_instance == null)
+			single_instance = new SingleTonClass();
+
+		return single_instance;
+	}
+
+}
+
+===============================================
+package testPackage;
+
+public class TestSingleTonClass  {
+
+	public void method1() {
+		
+		System.out.println("Test SingleTon Object");
+	}
+
+	public static void main(String[] args) {
+
+		TestSingleTonClass obj1 = new TestSingleTonClass();
+		TestSingleTonClass obj2 = new TestSingleTonClass();
+
+		System.out.println(obj1.hashCode());
+		System.out.println(obj2.hashCode());
+
+		// Having Different Memory allocations
+
+		SingleTonClass instance1 = SingleTonClass.getInstance();
+
+		SingleTonClass instance2 = SingleTonClass.getInstance();
+
+		System.out.println(instance1.hashCode());
+		System.out.println(instance2.hashCode());
+		
+		String lowerCase = instance1.s.toLowerCase();
+		System.out.println(lowerCase);
+		System.out.println(instance1.s);
+		
+		
+		
+		
+		
+	
+		
+		
+	}
+
+}
+

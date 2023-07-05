@@ -1,0 +1,5 @@
+27)Final keyword:
+=====================
+Once declare any value under final keyword we cant change it further.
+final() cant override
+Final class cant able to inherit.

@@ -1,0 +1,47 @@
+this
+====
+1)this can be used to refer current class instance variable.
+
+
+package testPackage;
+
+public class ThisKeyword {
+
+	int rollno;
+	String name;
+
+	public void studentDetails(int n, String name) {
+		this.rollno = n;
+		this.name = name;
+
+		System.out.println(this.rollno);
+		System.out.println(this.name);
+
+		
+		//Assigning values without this keyword
+		
+		//If we need to use accross all methods under class we have to use this key word to assign values in global variables
+		
+//		rollno = n;
+//		name = name;
+//
+//		System.out.println(rollno);
+//		System.out.println(name);
+	}
+	
+	public void afterWithoutThisdisplay() {
+		System.out.println(rollno);
+		System.out.println(name);
+	}
+	
+	public static void main(String[] args) {
+		ThisKeyword obj = new ThisKeyword();
+		obj.studentDetails(10, "test");
+		obj.afterWithoutThisdisplay();
+		
+	
+	}
+
+}
+
+

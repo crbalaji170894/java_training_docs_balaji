@@ -1,0 +1,24 @@
+29)Types of Varibales:
+=======================
+1) Local Variable
+2) Class Level Variable or Instance Variable
+3) Static Variables
+
+Local Variable:
+==============
+1)Inside the method can be declared.
+2)So Outside method it doesnot have any scope.
+
+Class level or global or Instance Variable
+========================================
+this.id used  to take the class level variables
+
+which is called as instance or gloabal variables
+
+define variable in class level and we can use it the same as all the menthods inside Class.
+
+
+
+
+
+
