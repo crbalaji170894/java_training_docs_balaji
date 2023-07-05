@@ -1,0 +1,105 @@
+Encapsulation in JAVA:
+===================
+
+Encapsulation in Java is a process of wrapping code and data together into a single unit.
+
+Ex. Capsule medice- which is mixed of several medicines.
+
+1) We can create a fully encapsulated class in Java by making all the data members of the class private
+2) Now we can use setter and getter methods to set and get the data in it.
+
+Why we go for Encapsulation?
+============================
+
+1) To make the class read-only or write-only by using getter and setter methods.
+2) contorl over the data 
+3) data hiding-other class will not be able to access the data through the private data members.
+
+How to create Encapsulation class in java:
+==========================================
+Crete a JAVA class
+define all variables as Private access specifier
+create getter and setter methods in it.
+
+Real time this will be used in Page object model to store webelemnets.
+===============================================================================
+package testPackage;
+
+public class Encapsulation {
+
+	// A Java class which is a fully encapsulated class.
+	// It has a private data member and getter and setter methods.
+	// define private variables.
+
+	private int id;
+	private String studentName;
+	private String address;
+	private long mobileNumber;
+
+	// create getter and setter methods
+	// Right click go to source->generate getter and setters
+	// Then Autoamtically methods are created with public access specifier.
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public long getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(long mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+
+}
+
+==========================================================
+
+package testPackage;
+
+public class TestEncapsulationClass {
+	
+	public static void main(String[] args) {
+		Encapsulation obj =new Encapsulation();
+		
+		//Write Only if we create Setter methods alone
+		obj.setId(101);
+		obj.setStudentName("Balaji");
+		obj.setAddress("Chennai");
+		obj.setMobileNumber(9095702844l);
+		
+		//Read only if we are creating getter methods alon in a class
+		System.out.println(obj.getId());
+		System.out.println(obj.getStudentName());
+		System.out.println(obj.getAddress());
+		System.out.println(obj.getMobileNumber());
+	}
+
+}
+
+======================================================================
+
+
+
+

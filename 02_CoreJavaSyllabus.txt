@@ -44,6 +44,8 @@ Final, Static,Super,this
 7.Basic idea about below topics
     JDBC, Singleton Program
 
+8.Variables
+
 
 
 
