@@ -17,3 +17,16 @@ Note:
 
 2)No, we cannot declare a top-level class as private or protected. It can be either public or default (no modifier). If it does not have a modifier, it is supposed to have a default access.30-Jul-2019
 
+
+
+public
+ 
+
+class -With in/outsides
+package -within/outside
+
+private-with in class only
+
+protected-with inclass and package
+
+default- above

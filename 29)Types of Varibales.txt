@@ -1,7 +1,7 @@
 29)Types of Varibales:
 =======================
 1) Local Variable
-2) Class Level Variable or Instance Variable
+2) Class Level Variable or Instance Variable or global varible
 3) Static Variables
 
 Local Variable:

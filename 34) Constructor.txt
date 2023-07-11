@@ -1,0 +1,34 @@
+34) Constructor:
+=============
+1) It is a Simila to normal java method.
+2) Constructor name and class name both are should be 
+same.
+3) It does not have any return type
+4)It gets invoked automattically when the object is created 
+
+Types
+1) Default Constructor
+2)Parameterized Constructor
+
+package testPackage;
+
+public class TestClassConstructor {
+
+	public TestClassConstructor() {
+
+		System.out.println("This is Default Constructor");
+	}
+
+	public TestClassConstructor(int a, String b) {
+		System.out.println("This is Parameterized Constructor");
+	}
+
+	public static void main(String[] args) {
+
+		TestClassConstructor obj1 = new TestClassConstructor();
+		TestClassConstructor obj2 =new TestClassConstructor(10,"test");
+		
+	}
+
+}
+
