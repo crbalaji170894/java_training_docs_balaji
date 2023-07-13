@@ -4,7 +4,7 @@ Terminology and Tools
 Terminology:
 ===========
 
-1. JDK
+1. JDK=JRE and JVM
 2. JRE
 3. JVM
 
@@ -33,6 +33,7 @@ TOOLS:
 3. Eclipse
 4. J Developer-oracle
 5. RAD-IBM
+6. Intellij
  Nowadays we mostly used eclipse (75% of the people using).
 
  Versions of eclipse:

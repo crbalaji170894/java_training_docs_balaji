@@ -21,8 +21,8 @@ variablename.scannermethods();
 
 Scanner methods:
 ===============
-1)nextInt()
-2)nextByte()
+1)nextInt()--integer we can able to get at run time
+2)nextByte()-
 3)nextShort()
 4)nextFloat()
 5)nextLong()
