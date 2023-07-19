@@ -18,3 +18,34 @@ Object:
 3.Object stores in heap memory which is available in JVM.
 
 
+package org.test.wd.batch;
+
+public class TestClass {
+
+	public void mehtodA() {
+		System.out.println("MethodA");
+	}
+
+	public void mehtodB() {
+		System.out.println("MethodB");
+
+	}
+
+	public void mehtodC() {
+
+		System.out.println("MethodC");
+	}
+
+	public static void main(String[] args) {
+
+		TestClass obeject1 = new TestClass();
+
+		obeject1.mehtodA();
+
+		obeject1.mehtodB();
+
+		obeject1.mehtodC();
+
+	}
+
+}

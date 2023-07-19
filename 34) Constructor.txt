@@ -1,6 +1,6 @@
 34) Constructor:
 =============
-1) It is a Simila to normal java method.
+1) It is a Similar to normal java method.
 2) Constructor name and class name both are should be 
 same.
 3) It does not have any return type

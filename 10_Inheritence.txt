@@ -15,10 +15,10 @@ Types:
 
 
 1) Single Inheritance
---------------------
+----------------------
 Combination of One parent Class and One child Class
 
-2) Multiple Inheritance
+2) Multiple Inheritance->this concept can be achived from Interface.
 =======================
 Will not work from Java which can be achived by Interface.
 
@@ -41,7 +41,7 @@ More than one parent will access from the child as tree like strucure.
 4) Hierarichal Inheritance
 ========================= -> One parent more than one child.
 
-ClassA-Parent
+ClassA-Parent-Ex: Base class 
 
 ClassB extends ClassA
 

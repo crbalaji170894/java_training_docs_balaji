@@ -1,7 +1,7 @@
 Abstraction:
 ===========
 
-Hideing the Data or Implementation Details.
+Hiding the Data or Implementation Details.
 
 Types Abstarction:
 =================

@@ -6,15 +6,52 @@ PolyMorphism:
 Two types of Polymorphism we have.
 =================================
 1) Compile Time polymorphism-Method Overloading
-2) Run Time Polymorphism-> Method Overriding.
+2) Run Time Polymorphism-> Method Overriding.,MethodBindig
 
 
 Compile Time polymorphism-Method Overloading
 =============================================
 
 1) Same class have to use
-2) Same Mehtods we have to use
+2) Same Mehtods name we have to use
 3) Need to pass different type of data or arguments inside methods
+
+package org.test.wd.batch;
+
+public class MEthodOverLoading {
+
+	public void testMethod() {
+		System.out.println("Test MEthod which does not have any parameters");
+
+	}
+
+	public void testMethod(int n) {
+		int empId = n;
+		System.out.println("The Emp Id is:" + empId);
+
+	}
+
+	public void testMethod(int n, String name) {
+		System.out.println("The Emp Id is:" + name);
+
+	}
+
+	public void testMethod(boolean bool) {
+		System.out.println("The boolean Value is:" + bool);
+
+	}
+
+	public static void main(String[] args) {
+		MEthodOverLoading obj = new MEthodOverLoading();
+
+		obj.testMethod();
+		obj.testMethod(100);
+		obj.testMethod(100, "test");
+		obj.testMethod(true);
+	}
+
+}
+
 
 
 Method Overriding:

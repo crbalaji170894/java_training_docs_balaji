@@ -19,9 +19,8 @@ Note:
 
 
 
-public
+public 
  
-
 class -With in/outsides
 package -within/outside
 

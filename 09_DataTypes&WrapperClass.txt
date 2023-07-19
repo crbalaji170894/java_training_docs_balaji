@@ -10,13 +10,65 @@ long       8    Long
 float      4    Float
 double     8    Double
 
-char            Character
-String          String
-boolean         Boolean
+char            Character 
+String          String 
+boolean         Boolean true fals
 
+byte = 8 bits
+-2 n-1 to 2 n-1
+-2 7 to 2 7
+2*2*2*2*2*2*2
+-128 to 128
 
+int 100
 
 **Wrapper class:
 ================
 Classes of Data type is called as Wrapper class.
+
+package org.test.wd.batch;
+
+public class DataType {
+
+	public static void main(String[] args) {
+		
+		byte b =12;
+		
+		int i =100;
+		
+		long l =9095702844l;
+		
+		char c ='d';
+		
+		String s ="Test Program123";
+		
+		boolean bool = true;
+		
+		float f =123.4567f;
+		
+		System.out.println(b);
+		
+		System.out.println(i);
+		
+		System.out.println(l);
+		
+		System.out.println(c);
+		
+		System.out.println(s);
+		
+		System.out.println(bool);
+		
+		System.out.println(f);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
+
 

@@ -17,3 +17,4 @@ To make Memeory efficient
 If you declare variable as Static memory will retains till to end of program exceution
 Static varables we can access both static and non static methods.
 
+https://compiler.javatpoint.com/opr/test.jsp?filename=Counter
