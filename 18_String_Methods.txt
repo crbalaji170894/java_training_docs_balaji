@@ -1,6 +1,6 @@
 String:
 ======
-1.String is predefined class and it presents t java.lang package.
+1.String is predefined class and it presents  java.lang package.
 2.Which we can say collection of characters.
 3. To represent as a String we have mention or define as docuble quotes. ""
 

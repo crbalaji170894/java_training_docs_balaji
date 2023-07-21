@@ -32,8 +32,6 @@ from its original design at free of cost is called open source
  It provides the virtual firewall between the application and the computer
  So it’s doesn't grant unauthorized access
 
-
-
 5. Portable:
 ============
  "Write once run anywhere"

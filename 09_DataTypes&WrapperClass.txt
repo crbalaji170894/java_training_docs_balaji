@@ -20,6 +20,7 @@ byte = 8 bits
 2*2*2*2*2*2*2
 -128 to 128
 
+
 int 100
 
 **Wrapper class:
