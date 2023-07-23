@@ -30,4 +30,37 @@ Scanner methods:
 7)nextLine()-It accepts space
 8)nextBoolean()
 
+package org.test.wd.batch;
+
+import java.util.Scanner;
+
+public class ScannerClass {
+
+	public static void main(String[] args) {
+
+		System.out.println("Start Entering the Values");
+
+		Scanner sc = new Scanner(System.in);
+
+		int empId = sc.nextInt();
+
+		System.out.println("The Value is " +empId);
+
+		String text1 = sc.next();
+
+		System.out.println("The String Value is " + text1);
+
+//		String itemID = sc.nextLine();
+//		
+//		System.out.print("Enter Item price: ");
+
+//		boolean bool = sc.nextBoolean();
+//
+//		System.out.println("The boolean value is " + bool);
+
+	}
+
+}
+
+
 

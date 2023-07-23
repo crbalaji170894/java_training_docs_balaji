@@ -12,9 +12,9 @@ Partial Abstarction:(Absract)
 ====================
 * Contains both abstarct and non absract mehtods
 * have to use keyword called "extends"
-* have to use Keyword class Abstarct (both class and method)
+* have to use Keyword class abstarct (both class and method)
 * Do not have any default return type
-* We can not create object in Absract class
+* We can not able create object in Absract class
 
 Fully Abstraction: Interface
 ===========================

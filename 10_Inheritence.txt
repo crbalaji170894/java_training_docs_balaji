@@ -9,7 +9,7 @@ Inheritence:
 Types:
 =====
 1) Single Inheritance
-2) Multiple Inheritance
+2) Multiple Inheritance-This 
 3) Multilevel Inheritance
 4) Hierarichal Inheritance
 

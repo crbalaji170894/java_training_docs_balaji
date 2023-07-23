@@ -8,7 +8,7 @@ same.
 
 Types
 1) Default Constructor
-2)Parameterized Constructor
+2) Parameterized Constructor
 
 package testPackage;
 

@@ -1,7 +1,7 @@
 1) LIST -Interface-Index based
-===================
+==========================
 
-1) ArrayList
+1)ArrayList
 2)LinkedList
 3)Vector
 
@@ -15,7 +15,6 @@ These are Predefined classed which are available from LIST Interface.
 
 Synatax:
 =======
-List emptyList = new List();
 
 1) Array List:
 ================
@@ -85,5 +84,12 @@ i) Synchronized and Thread Safe
 
 ArryList: Asunchronized and not thread safe.
 ============================================================================================
+
+w E L H I C O M E
+0 1 2 3 4 5 6 7 6
+
+W  E   L 
+N1 N2 
+
 
 
