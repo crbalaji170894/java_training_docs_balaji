@@ -84,7 +84,7 @@ public class FluentWaitTest {
 
 		WebElement loginButton = driver.findElement(By.name("login"));
 
-		wait.withTimeout(Duration.ofSeconds(30)).pollingEvery(Duration.ofSeconds(2)).ignoreAll(NoSuchElementException.class)
+		wait.withTimeout(Duration.ofSeconds(30)).pollingEvery(Duration.ofSeconds(2)).ignoreing(NoSuchElementException.class)
 				.until(ExpectedConditions.elementToBeClickable(loginButton));
 		
 		loginButton.click();
