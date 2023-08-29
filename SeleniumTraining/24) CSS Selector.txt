@@ -1,0 +1,5 @@
+Method	Target Syntax	Example
+Tag and ID	css=tag#id	css=input#email
+Tag and Class	css=tag.class	css=input.inputtext
+Tag and Attribute	css=tag[attribute=value]	css=input[name=lastName]
+Tag, Class, and Attribute	css=tag.class[attribute=value]	css=input.inputtext[tabindex=1]

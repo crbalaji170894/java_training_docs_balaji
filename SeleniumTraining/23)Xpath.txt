@@ -1,0 +1,67 @@
+23)Xpath Axes
+=============
+https://www.facebook.com/
+
+1)Contains:
+==============
+Contains Webelement
+Xpath=//*[contains(@type,'sub')]
+
+Ex: //input[contains(@id,'em')]
+2)Using OR & AND:
+===============
+Xpath=//*[@type='submit' or @name='btnReset']
+
+//input[@id='email'  and @class='inputtext _55r1 _6luy']
+
+//input[@id='email'  or @class='inputtext _55r1 _6luy']
+3)Xpath Starts-with
+==================
+Xpath=//label[starts-with(@id,'message')]
+
+//input[starts-with(@id,'em')]
+4)Following:
+===========
+Xpath=//*[@type='text']//following::input
+
+1) //input[starts-with(@id,'em')]//following::input ->Following Input Tags 
+2)  //input[starts-with(@id,'em')]//following::input[1]-Using Following take webelement of Password
+3) //input[@name='login_source']//following::input
+
+Follwoing Tags
+
+5)Ancestor-Mostly Not used
+=========
+
+The ancestor axis selects all ancestors element (grandparent, parent, etc.) of the below screen.
+
+Select Parent or Grant Parent
+
+Xpath=//*[text()='Enterprise Testing']//ancestor::div
+
+//button[@name='login']//ancestor::div[@class='_6ltg']-Parent
+//button[@name='login']//ancestor::div-GrandParents
+
+6)Child
+=======
+https://www.jotform.com/form-templates/create-an-account
+
+Xpath=//*[@id='java_technologies']//child::li
+
+7) Preceding
+=============
+Xpath=//*[@type='submit']//preceding::input
+
+//button[@name='login']//preceding::input-->Abover Tags
+//button[@name='login']//preceding::input
+//button[@name='login']//preceding::input[@id='email']->Take User name WebElement using Preceeding
+
+8)Following-sibling
+===================
+https://www.jotform.com/form-templates/create-an-account
+1) //input[@id='first_2']//following::input
+2)
+xpath=//*[@type='submit']//following-sibling::input
+
+
+

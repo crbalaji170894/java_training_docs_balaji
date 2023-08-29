@@ -1,0 +1,54 @@
+JAVA Installation:
+==================
+1) Go to goole -> type java downlaod (https://www.oracle.com/in/java/technologies/downloads/#jdk20-windows)
+2) Go to Windows section 
+3) Click to downlaod (x64 Installer)
+4) JDK file has downloaded into Downloads.
+5) Do inatall using double click on the JDK exceutable file.
+
+Now Go to cmd,
+Check Java has installed or not.
+
+C:\Users\Kisho>java --version
+java 20.0.1 2023-04-18
+Java(TM) SE Runtime Environment (build 20.0.1+9-29)
+
+Java HotSpot(TM) 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
+
+
+Eclipse Installation:
+=====================
+1) Go to Google -> type Eclipse Downlaod
+2) Click th First Link (https://www.eclipse.org/downloads/)
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-06/R/eclipse-inst-jre-win64.exe
+3) Download which supports for Windows.
+
+4) Double click downloaded Eclipse installer file
+5) Select "Eclipse IDE for JAVA Developers"
+6) Before click Install Please note down the JDK path and Eclipse Installer path.
+   JDK: c:\Programfiles\Java\jdk-20
+   elcipse:C:\Users\Kisho\eclipse\java-2023-06
+7) Click Install
+8)User Agreement-Accept now
+
+Wait for few minutes to get installtion to be completed.
+
+9) Click Launch.
+
+C:\Users\Kisho\eclipse-workspace -path
+
+JAVA Path setup in Environment Variables:
+=========================================
+1) Go to search in desktop -> Search Advanced System settings
+2) Go  Environment Varibales
+3) Click New under System varibales -> set path like below
+ 1)JAVA_HOME ->C:\Program Files\Java\jdk-20
+4) Click path add new and add this path->C:\Program Files\Java\jdk-20\bin
+5) Apply -OK
+
+
+
+
+
+
+
