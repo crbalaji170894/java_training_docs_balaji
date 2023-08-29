@@ -51,6 +51,49 @@ public class ExplicitWait {
 }
 
 
+FluentWait:
+package testpackage;
+
+import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+
+public class FluentWaitTest {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com/");
+
+		WebElement username = driver.findElement(By.id("email"));
+
+		FluentWait wait = new FluentWait(driver);
+
+		username.sendKeys("test@gmail.com");
+
+		WebElement password = driver.findElement(By.id("pass"));
+
+		password.sendKeys("test");
+
+		WebElement loginButton = driver.findElement(By.name("login"));
+
+		wait.withTimeout(Duration.ofSeconds(30)).pollingEvery(Duration.ofSeconds(2)).ignoreAll(NoSuchElementException.class)
+				.until(ExpectedConditions.elementToBeClickable(loginButton));
+		
+		loginButton.click();
+
+	}
+}
+
+
+
 
 Fluent Wait
 =============
